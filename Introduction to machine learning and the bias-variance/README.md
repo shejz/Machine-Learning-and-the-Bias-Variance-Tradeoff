@@ -2,17 +2,48 @@
 
 Supervised Learning is a course series that walks through all steps of the classical supervised machine learning pipeline. We use python and packages like scikit-learn, pandas, numpy, and matplotlib. The course series focuses on topics like cross validation and splitting strategies, evaluation metrics, supervised machine learning algorithms (like linear and logistic regression, support vector machines, and tree-based methods like random forest, gradient boosting, and XGBoost), and interpretability. You can complete the courses in sequence or complete individual courses based on your interest. 
 
-## Prerequistes
+## **Supervised Machine Learning 1** : Introduction to machine learning and the bias-variance tradeoff
 
-We use jupyter notebooks and python in this course series. The env.yml file contains the python and package versions used to develop the codes in this repository. You can directly use that file to create an environment with conda. On linux and mac, you need to give the following commands in the terminal:
+Supervised Learning is a course series that walks through all steps of the classical supervised machine learning pipeline. The course series focuses on topics like **cross validation** and **splitting strategies**, **evaluation metrics**, **supervised machine learning algorithms** (like linear and logistic regression, support vector machines, and tree-based methods like random forest, gradient boosting, and XGBoost), and **interpretability**.
 
-*conda env create -n [name_of_env] -f [path_to_yaml]*
+> ### **Learning Objectives**
+- Describe how a task like spam filtering can be solved with explicit coding instructions vs. a machine learning algorithm that learns from examples (training data).
+- Summarize the similarities and differences between supervised and unsupervised ML.
+- List the pros and cons of supervised machine learning.
+- Define the mathematical model behind linear and logistic regression.
+- Explain what the loss function is.
+- Describe the two main types of regularization and why it is important.
+- Perform a simple train/validation/test split on IID data
+- Apply linear and logistic regression to datasets.
+- Tune the regularization hyperparameter.
+- Identify models with high bias and high variance and Select the best model and measure its performance on a previously unseen dataset, the test set.
 
-*conda activate [name_of_env]*
+> ### **Course Outline**
+**Module 1**: Intro to Machine Learning 
+- Motivation: why supervised ML is the most successful area of ML
+- The example of the spam filter: workflow with explicit coding instructions vs. machine learning
+- The feature matrix and the target variable
+- Supervised and unsupervised machine learning
+- The pros and cons of supervised ML
+- Automation and predictions 
 
-Unfortunately I have very little experience with windows so I'm not sure how conda works with that operating system.
+**Module 2**: Overview of linear and logistic regression with regularization 
+- The mathematical models behind linear and logistic regression
+- The cost function
+- Brief description of gradient descent
+- Motivate regularization
+- L1 (Lasso) and l2 (Ridge) regularization
 
-Once your environment is created, please run the test_environment.ipynb. It checks the versions of your python and packages (like pandas, sklearn, xgboost). If the notebook returns all OK, you should be able to run and reproduce all notebooks in this repo without issues. If some FAILs are returned, you should install/update those packages first. 
+**Module 3**: The bias-variance tradeoff 
+- Split a dataset into train/validation/test sets
+- Standardize the dataset
+- Train linear models with various regularization strength
+- Calculate the train and validation scores
+- Plot the scores and the predictions of corresponding models
+- Identify regions of high bias and high variance
+- Select the best regularization strength
+- Calculate the test score
+
 
 ## Description
 
