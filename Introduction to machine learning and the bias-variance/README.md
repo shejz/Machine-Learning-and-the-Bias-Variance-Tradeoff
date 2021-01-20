@@ -14,7 +14,7 @@ Supervised Learning is a course series that walks through all steps of the class
 - Tune the regularization hyperparameter.
 - Identify models with high bias and high variance and Select the best model and measure its performance on a previously unseen dataset, the test set.
 
-> ### **Course Outline**
+### **Course Outline**
 **Module 1**: Intro to Machine Learning 
 - Motivation: why supervised ML is the most successful area of ML
 - The example of the spam filter: workflow with explicit coding instructions vs. machine learning
