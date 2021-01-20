@@ -2,6 +2,12 @@
 
 Supervised Learning is a course series that walks through all steps of the classical supervised machine learning pipeline. The course series focuses on topics like **cross validation** and **splitting strategies**, **evaluation metrics**, **supervised machine learning algorithms** (like linear and logistic regression, support vector machines, and tree-based methods like random forest, gradient boosting, and XGBoost), and **interpretability**.
 
+## Description
+
+### Part 1: Introduction to machine learning and the bias-variance tradeoff
+This course starts with a high-level overview of supervised machine learning focusing on regression and classification problems, what questions can be answered with these tools, and what the ultimate goal of a machine learning pipeline is. Then we will walk through the math behind linear and logistic regression models with regularization. Finally, we put together a simple pipeline using a toy dataset to illustrate the bias-variance tradeoff, a key concept in machine learning that drives how models are selected.
+
+
 > ### **Learning Objectives**
 - Describe how a task like spam filtering can be solved with explicit coding instructions vs. a machine learning algorithm that learns from examples (training data).
 - Summarize the similarities and differences between supervised and unsupervised ML.
@@ -41,8 +47,5 @@ Supervised Learning is a course series that walks through all steps of the class
 - Calculate the test score
 
 
-## Description
 
-### Part 1: Introduction to machine learning and the bias-variance tradeoff
-This course starts with a high-level overview of supervised machine learning focusing on regression and classification problems, what questions can be answered with these tools, and what the ultimate goal of a machine learning pipeline is. Then we will walk through the math behind linear and logistic regression models with regularization. Finally, we put together a simple pipeline using a toy dataset to illustrate the bias-variance tradeoff, a key concept in machine learning that drives how models are selected.
 
